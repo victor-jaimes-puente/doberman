@@ -37,11 +37,11 @@ function Puppy1() {
               variant="h4"
               style={{ color: "white", fontWeight: "bold", padding: "1em" }}
             >
-              All three puppies are males and are up to date on all of thier shots.
+              All puppies are males and are up to date on all of thier shots.
               <br/> 
               $600 relocation fee.
             </Typography>
-            <img style={{ maxWidth: '80%',paddingBottom: '5em', }} src={tres} alt="tres" />
+            {/* <img style={{ maxWidth: '80%',paddingBottom: '5em', }} src={tres} alt="tres" /> */}
           </Paper>
         </Grid>
       </Grid>

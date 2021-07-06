@@ -15,7 +15,7 @@ function Home() {
        <ElPadre />
        <EnVenta />
        <Puppy1 />
-       <Puppy2 />
+       {/* <Puppy2 /> */}
        <Puppy3 />
        </div>
      </React.Fragment>
