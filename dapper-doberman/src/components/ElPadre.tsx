@@ -31,10 +31,10 @@ function ElPadre() {
               variant="h5"
               style={{ color: "white", fontWeight: "bold", padding: "1em" }}
             >
-              El Padre
+              The Father
             </Typography>
             <img
-              style={{ maxWidth: "40%", paddingBottom: "5em" }}
+              style={{ maxWidth: "80%", paddingBottom: "5em" }}
               src={padre}
               alt="padre"
             />

@@ -38,7 +38,7 @@ export default function NavBar() {
             style={{ fontWeight: "bold", fontSize: "1.5em" }}
           >
             <Link style={{ color: "red" }} to="/Informacion">
-              Informacion
+              Contact Information
             </Link>
           </Grid>
         </Grid>

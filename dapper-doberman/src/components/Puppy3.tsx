@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import Grid from '@material-ui/core/Grid'
 import { Paper, Typography } from '@material-ui/core';
-import ultra from '../resources/images/elUltra.jpeg'
+import sunny from '../resources/images/sunny.webp'
 
 
 
@@ -22,9 +22,9 @@ function Puppy3() {
                 <Grid item xs sm md lg={8} xl={8} >
                     <Paper elevation={12} style={{ marginTop: '5em',marginBottom: '5em', backgroundColor: 'black', color: 'white', fontWeight: 'bold', padding: '1em', }} >
                         <Typography variant="h5" style={{ color: 'white', fontWeight: 'bold', padding: '1em', }} >
-                             El Catrin
+                             Sunny
                         </Typography>
-                        <img style={{ maxWidth: '40%',paddingBottom: '5em', }} src={ultra} alt="ultra" />
+                        <img style={{ maxWidth: '80%',paddingBottom: '5em', }} src={sunny} alt="sunny" />
 
                     </Paper>
                 </Grid>

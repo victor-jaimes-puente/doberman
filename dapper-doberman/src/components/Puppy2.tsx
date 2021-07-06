@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import Grid from "@material-ui/core/Grid";
 import { Paper, Typography } from "@material-ui/core";
-import ultra from "../resources/images/elUltra.jpeg";
+import roco from "../resources/images/roco.webp";
 
 function Puppy2() {
   return (
@@ -31,12 +31,12 @@ function Puppy2() {
               variant="h5"
               style={{ color: "white", fontWeight: "bold", padding: "1em" }}
             >
-              El Safado
+              Roco
             </Typography>
             <img
-              style={{ maxWidth: "40%", paddingBottom: "5em" }}
-              src={ultra}
-              alt="ultra"
+              style={{ maxWidth: "80%", paddingBottom: "5em" }}
+              src={roco}
+              alt="roco"
             />
           </Paper>
         </Grid>

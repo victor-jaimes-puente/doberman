@@ -31,10 +31,10 @@ function LaMadre() {
               variant="h5"
               style={{ color: "white", fontWeight: "bold", padding: "1em" }}
             >
-              La Madre
+              The Mother
             </Typography>
             <img
-              style={{ maxWidth: "38%", padding: "1em" }}
+              style={{ maxWidth: "78%", padding: "1em" }}
               src={madre}
               alt="madre"
             />

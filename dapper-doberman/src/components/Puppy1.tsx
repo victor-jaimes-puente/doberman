@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import Grid from "@material-ui/core/Grid";
 import { Paper, Typography } from "@material-ui/core";
-import ultra from "../resources/images/elUltra.jpeg";
+import ultra from "../resources/images/ultra.webp";
 
 function Puppy1() {
   return (
@@ -31,10 +31,10 @@ function Puppy1() {
               variant="h5"
               style={{ color: "white", fontWeight: "bold", padding: "1em" }}
             >
-              El Ultra
+              Ultra
             </Typography>
             <img
-              style={{ maxWidth: "40%", paddingBottom: "5em" }}
+              style={{ maxWidth: "80%", paddingBottom: "5em" }}
               src={ultra}
               alt="ultra"
             />
